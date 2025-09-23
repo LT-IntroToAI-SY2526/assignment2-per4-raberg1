@@ -39,6 +39,8 @@ def match(pattern: List[str], source: List[str]) -> List[str]:
                 result.append(combined)
                 print(result)
                 return result
+            else: # not the last element of pattern
+                pass
 
         # 3) if we reached the end of the source but not the pattern
         elif sind == len(source):
